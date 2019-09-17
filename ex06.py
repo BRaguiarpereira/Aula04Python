@@ -1,5 +1,5 @@
   
-n2 = int(input('Digite um numero como limite:'))
+n2 = int(input('Digite um numero multiplo:'))
 n = 0
 n1 = 0
 while n<=9:
