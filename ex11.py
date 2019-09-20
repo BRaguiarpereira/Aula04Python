@@ -1,14 +1,14 @@
-nota1='b'
-nota2='a'
-nota3='d'
-n1 =  str(input( ' n1: ' ))
-n2 =  str(input( ' n2: ' ))
-n3 = str(input('n3:'))
+
+n1 =  float(input( ' Deposito: ' ))
+n2 =  float(input( ' Juros: ' ))
 cont =  0
-if nota1==n1:
-    cont=cont+1
-if nota2==n2:
-    cont=cont+1
-if nota3==n3:
-    cont=cont+1
-print('Vocé acertou :{}'.format(cont))
+vj = 0
+vs = 0
+vf = 0
+while cont!=23:
+    vj = (n1*(n2/100))
+    vs += vj
+    cont =  cont + 1
+    vf = vs + n1
+    print('No mes {} voce teve um acrescimo de : {}'.format(cont,vs))
+print('Seu deposito ficou com o saldo de : {}'.format(vf))
